@@ -9,8 +9,9 @@ const theme = createTheme({
       main: '#9c27b0',
     },
     background: {
-      default: '#f9f9f9',
-    },
+    default: "#18182f", // Deep navy
+    paper: "#22223b", // Slightly lighter for cards
+    }
   },
   typography: {
     fontFamily: 'Roboto, Arial, sans-serif', // Uses Google Fonts
