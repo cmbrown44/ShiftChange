@@ -14,10 +14,11 @@ function App() {
             mb: 4,
             background: 'linear-gradient(90deg, #1976d2 30%, #9c27b0 90%)',
             color: '#fff',
+            borderRadius: 4,
           }}
         >
           <Typography variant="h1" align="center" gutterBottom>
-            Shift Forward
+            Shift Change
           </Typography>
           <Typography variant="h5" align="center">
             A blog about my journey learning tech
@@ -25,8 +26,18 @@ function App() {
         </Paper>
         {/* Blog Posts */}
         {posts.map((post) => (
-          <Paper key={post.id} elevation={1} sx={{ p: 3, mb: 4 }}>
-            <Typography variant="h2" gutterBottom>
+          <Paper
+            key={post.id}
+            elevation={4}
+            sx={{
+              p: 3,
+              mb: 4,
+              borderRadius: 3, // curved edges
+              backgroundColor: "#faf7fd", // soft background
+              boxShadow: '0 2px 16px rgba(60,40,110,0.08)', // subtle shadow
+            }}
+          >
+            <Typography variant="h2" gutterBottom sx={{ fontSize: '2rem', fontWeight: 700 }}>
               {post.title}
             </Typography>
             <Typography variant="caption" color="text.secondary" gutterBottom>
