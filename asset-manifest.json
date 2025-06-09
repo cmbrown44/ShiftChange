@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ShiftChange/static/css/main.e6c13ad2.css",
-    "main.js": "/ShiftChange/static/js/main.4b15f1da.js",
+    "main.js": "/ShiftChange/static/js/main.e88ff1c0.js",
     "static/js/453.2d660404.chunk.js": "/ShiftChange/static/js/453.2d660404.chunk.js",
     "index.html": "/ShiftChange/index.html",
     "main.e6c13ad2.css.map": "/ShiftChange/static/css/main.e6c13ad2.css.map",
-    "main.4b15f1da.js.map": "/ShiftChange/static/js/main.4b15f1da.js.map",
+    "main.e88ff1c0.js.map": "/ShiftChange/static/js/main.e88ff1c0.js.map",
     "453.2d660404.chunk.js.map": "/ShiftChange/static/js/453.2d660404.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.4b15f1da.js"
+    "static/js/main.e88ff1c0.js"
   ]
 }
