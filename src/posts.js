@@ -28,7 +28,7 @@ const posts = [
           I started by a creating a new React project, which gave me a ready-made project structure to styart with as a foundation.
         </p>
         <p>
-          <strong>How to do it:</strong><br />
+          <strong>How:</strong><br />
           Open VSCode and open a new terminal and run this command:
         </p>
         <pre>
@@ -122,7 +122,7 @@ const posts = [
           Then add these scripts to your <code>scripts</code> section:
         </p>
         <pre>
-          "predeploy": "npm run build",
+          "predeploy": "npm run build",\
           "deploy": "gh-pages -d build",
         </pre>
 
