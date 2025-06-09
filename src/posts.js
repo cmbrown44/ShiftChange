@@ -9,8 +9,6 @@ const posts = [
         <p>
           I recently set up this blog using React, Material UI, and GitHub Pages for free static hosting,
           with automatic deployments powered by GitHub Actions. Here's a detailed breakdown so you can do it too!
-
-          The following steps I completed using VSCode as my ... github....
         </p>
         <p>
           Before we dive in, let's cover the basics of what you'll need:

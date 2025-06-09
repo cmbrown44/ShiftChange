@@ -21,7 +21,7 @@ function App() {
             Shift Change
           </Typography>
           <Typography variant="h5" align="center">
-            A blog where I discuss the stuff I'm learning about in tech.
+            A blog where I share the things I'm learning or personal projects I'm working on.
           </Typography>
         </Paper>
         {/* Blog Posts */}
