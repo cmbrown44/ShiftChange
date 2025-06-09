@@ -121,7 +121,7 @@ const posts = [
         <p>
           Then add these scripts to your <code>scripts</code> section:
         </p>
-        <pre>
+        <pre style={{ textAlign: "left" }}>
           {`
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
