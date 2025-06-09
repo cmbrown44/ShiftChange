@@ -123,9 +123,9 @@ const posts = [
         </p>
         <pre>
           {`
-          "predeploy": "npm run build",
-          "deploy": "gh-pages -d build",
-          `}
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        `}
         </pre>
         <h3>Step 7: Deploy Your Website</h3>
         <p>
