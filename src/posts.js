@@ -122,10 +122,11 @@ const posts = [
           Then add these scripts to your <code>scripts</code> section:
         </p>
         <pre>
-          "predeploy": "npm run build",\
+          {`
+          "predeploy": "npm run build",
           "deploy": "gh-pages -d build",
+          `}
         </pre>
-
         <h3>Step 7: Deploy Your Website</h3>
         <p>
           <strong>What are we doing?</strong><br />
