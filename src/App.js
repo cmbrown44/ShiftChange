@@ -1,4 +1,5 @@
 import React from 'react';
+import { formatDate } from './utils/formatDate';
 import { Container, Box, Typography, Paper } from '@mui/material';
 import posts from './posts';
 
@@ -41,7 +42,7 @@ function App() {
               {post.title}
             </Typography>
             <Typography variant="caption" color="text.secondary" gutterBottom>
-              {post.date}
+              {formatDate(post.date)}
             </Typography>
             <Box mt={2}>{post.content}</Box>
           </Paper>
