@@ -20,14 +20,26 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
+      - name: Log Install
+        run: echo "installed dependencies"
+      
       - name: Test
         run: npm test
+      
+      - name: Log Tests
+        run: echo "tests complete"
 
       - name: Build
         run: npm run build
+      
+      - name: Log Build
+        run: echo "Build Complete"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+      
+      - name: Log Deployment
+        run: echo "Deploy to GitHub Pages complete"
